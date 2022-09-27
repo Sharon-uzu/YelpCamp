@@ -1,0 +1,336 @@
+@media screen and (max-width:1000px) {
+    .one{
+        height: 100vh;
+    }
+    nav{
+        position: relative;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        top: 0;
+        left: 0;
+        margin-left: 3rem;
+    }
+    .landing-page{
+        flex-direction: column-reverse;
+        width: 99%;
+    }
+    .landing-page .left{
+        width: 100%;
+    }
+    .landing-page .left .content{
+        width: 95%;
+        margin: auto;
+        font-size: 23px;
+        height: auto;
+    }
+    .landing-page .left h1{
+        font-size: 60px;
+        margin-top: .5rem;
+    }
+    .landing-page .left p{
+        line-height: 2rem;
+    }
+    .landing-page .left input{
+        margin-top: 1.5rem;
+    }
+    .landing-page .left button{
+        margin-top: 2rem;
+        border: 1px solid black;
+        background-color: black;
+        padding: 1.2rem;
+        font-size: 23px;
+        border-radius: .4rem;
+        margin-bottom: 3rem;
+    }
+    .landing-page .right{
+        width: 99%;
+        
+    }
+    .landing-page .right img{
+        height: 35vh;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+/* individualC */
+
+@media screen and (max-width:1000px){
+    .c .first{
+        width: 99%;
+    }
+    .c .second{
+        margin-top: 1.5rem;
+    }
+    .c .second .content{
+        width: 90%;
+        position: relative;
+      }
+      .c  img{
+        width: 40%;
+      }
+      #link{
+        flex-direction: column;
+        margin-left: 0;
+        background-color: black;
+        color: white;
+       position: absolute;
+       width: 95%;
+       top: 1rem;
+       height: 30vh;
+       z-index: 10;
+        font-size: 34px;
+        display:none ;
+      }
+      /* .c .second a{
+        margin-right: 1rem;
+      } */
+      .c ul li{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        z-index: 100;
+      }
+      .c ul li:nth-child(3){
+        margin-left: -1rem;
+      }
+      .c ul li a:nth-child(3){
+        color: white;
+      }
+      .c ul li a{
+        color: white;
+      }
+      .a{
+        margin-left: 0;
+    }
+    .c ul button{
+    margin-top: 0;
+    margin-left: 0;
+    width: 60%;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    }
+    .c .menu{
+       right: 0;
+        position: absolute;
+        top: .6rem;
+        width: 8%;
+        display: block;
+    }
+    .c .menu #menubar{
+        display: block;
+    }
+     #menubar{
+        width: 100%;
+    }
+     /* #close{
+        display: block;
+        width: 100%;
+    } */
+      #closebar{
+        width: 90%;
+        display: none;
+    }
+    .c .third{
+        width: 90% ;
+        margin: auto;
+    }
+    .c .third .content{
+        flex-direction: column-reverse;
+    }
+    .c .third .left{
+        width: 100%; 
+        margin-top: 2rem;
+    }
+    .c .third .left .logo{
+        position: relative;
+        height: 7rem;
+    }
+    .c .third .left .logo img{
+        bottom: 10%;
+    }
+
+
+    .c .third .right{
+        width: 100%;
+    }
+    
+    .c .third .right .s .one{
+        position: relative;
+        width: 100%;
+        height: 12rem;
+        background-color: #ffffff;
+        margin-top: -1.5rem;
+    }
+    
+    .c .third .left .image img{
+        width: 100%
+    }
+
+    /* create */
+    @media screen and (max-width:1000px) {
+        .create .content{
+            width: 100%;
+            flex-direction: column;
+        }
+        .create .content .left{
+            width: 92%;
+            margin: auto;
+        }
+        .create .content .left .nav{
+            display: flex;
+            width: 95%;
+        }
+        .create .content .left .nav img{
+            width: 34%;
+        }
+        .create .content .left .nav a{
+            font-size: 18px;
+        }
+        .create .content .left .form{
+            width: 100%;
+            margin-top: 5rem;
+        }
+        .create .content .right{
+            height: 36vh;
+            width: 95%;
+            margin: auto;
+            margin-top: 2rem;
+        }
+        .create .right .context{
+            width: 90%;
+            font-size: 19px;
+        }
+
+
+
+
+
+        /* comment */
+        .c .add{
+            width: 97%;
+          margin-top: 4rem;
+          font-size: 30px;
+        }
+        .c  .add h1{
+            font-size: 40px;
+            margin-bottom: 2rem;
+        }
+        .c .add form p{
+            margin-bottom: 1.3rem;
+        }
+        .c .add form input{
+            padding: 1rem 12rem 14rem 1rem;
+        }
+        .c .add form button{
+            width: 94%;
+            margin-top: 2rem;
+            font-size: 18px;
+            padding: 2rem;
+        }
+        .c .l{
+            width: 90%;
+            margin-top: 6rem;
+        }
+
+
+
+
+        /* search */
+        .c .s-two{
+            width: 90%;
+            margin: auto;
+            margin-top: 5rem;
+            height: 30vh;
+        }
+        .c .s-two .search{
+            width: 90%;
+            margin: auto;
+        }
+        .c .s-two .search .content{
+            margin-left: 0rem;
+        }
+        .c .s-two .search .content h1{
+            font-size: 25px;
+        }
+        .c .s-two .search .content p{
+            font-size: 23px;
+        }
+
+        .c .s-two .search .content input{
+            padding: 1.2rem;
+        }
+        .c .s-two .search .content button{
+            padding: 1rem;
+        }
+        .c .s-two .search .content a{
+           font-size: 18px;
+        }
+
+        /* pictures */
+        .pictures{
+            width: 90%;
+            grid-template-columns:  1fr 1fr;
+        }
+        .pictures .pix .con{
+            width: 90%;
+        }
+
+
+
+        /* add camp */
+        .add-camp{
+            width: 90%;
+            margin: auto;
+            margin-top: 3rem;
+        }
+        .add-camp input{
+           padding: 1rem 0 1rem 1rem;
+           width: 95%;
+           margin-bottom: 3rem;
+        }
+        .add-camp textarea{
+            padding: 2rem 2.7rem 2rem 1rem;
+            width: 90%;
+        }
+        .add-camp form button{
+            width: 100%;
+        }
+        .f{
+            width: 85%;
+           margin-top: 4rem;
+        }
+
+    }
+
+
+
+
+
+
+    
+
+
+}
+
+
+
+
+/* search pictures */
+
+
+@media screen and (max-width:600px) {
+    .pictures{
+        grid-template-columns: 1fr;
+    }
+}
